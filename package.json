@@ -1,5 +1,5 @@
 {
-  "name": "drop-down-menu",
+  "name": "@alexerdei73/drop-down-menu",
   "version": "1.0.0",
   "description": "Simple drop-down-menu in JS",
   "main": "index.js",

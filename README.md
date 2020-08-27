@@ -1,4 +1,4 @@
-# drop-down-menu
+# @alexerdei73/drop-down-menu
 
 This is an npm package, which can be used to handle a drop down menu. 
 The HTML file should contain a container element. This element must contain
