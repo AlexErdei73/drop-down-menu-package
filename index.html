@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drop-Down Menu</title>
+        <meta charset="UTF-8">
+        <style>
+            body {
+                background: gray;
+            }
+            h1 {
+                display: block;
+                width: 30%;
+                text-align: center;
+                margin: 2% auto;
+            }
+            #dropdownmenu {
+                width: 200px;
+                border: 2px solid black;
+                margin: auto;
+            }
+            #menutitle {
+                padding: 5px;
+                border: 1px solid whitesmoke;
+            }
+            #menutitle:hover {
+                background: dodgerblue;
+                color:whitesmoke;
+            }
+            #items {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+            }
+            #item {
+                margin: 0;
+                padding: 5px;
+                border: 1px solid whitesmoke;
+            }
+            #item:hover {
+                background: dodgerblue;
+                color:whitesmoke;
+            }
+            .hide {
+                transform-origin: top;
+                transform: rotateX(90deg);
+                transition: transform 500ms;
+            }
+            .show {
+                transform-origin: top;
+                transform: rotateX(0);
+                transition: transform 500ms;
+            }
+            .active {
+                background: dodgerblue;
+                color:whitesmoke;
+            }
+            #result {
+                width: 200px;
+                height: 50px;
+                margin: 20px auto;
+                border: 2px solid black;
+                text-align: center;
+                line-height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Drop-Down Menu</h1>
+        <div id = "dropdownmenu">
+            <div id = "menutitle">
+                Click Me!
+            </div>
+            <ul id = "items">
+                <li id = "item">Item 0</li>
+                <li id = "item">Item 1</li>
+                <li id = "item">Item 2</li>
+            </ul>
+        </div>
+        <div id = "result"></div>
+        <script src="sample.js"></script>
+    </body>
+</html>
