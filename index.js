@@ -24,7 +24,7 @@ function DropDownMenu(container, onItemClick) {
         
 }
 
-modul.exports = DropDownMenu;
+module.exports = DropDownMenu;
 
 
 
