@@ -1,4 +1,4 @@
-const DropDownMenu = require('@alexerdei73/drop-down-menu');
+import DropDownMenu from '@alexerdei73/drop-down-menu';
 
 const menu = new DropDownMenu(document.querySelector('#dropdownmenu'), onMenuItemClick);
 
